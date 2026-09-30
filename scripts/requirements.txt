@@ -1,0 +1,17 @@
+# ---------------------------------------------------------------------------
+#  tugberkcem / animated profile art
+#  Kurulum:  pip install -r scripts/requirements.txt
+#  Not: rembg ilk calismada ~176 MB'lik u2net modelini indirir.
+# ---------------------------------------------------------------------------
+
+requests>=2.31.0
+beautifulsoup4>=4.12.3
+
+# gorsel isleme
+Pillow>=10.2.0
+numpy>=1.26.0
+opencv-python>=4.9.0.80
+
+# arka plan silme (CPU)
+rembg>=2.0.50
+onnxruntime>=1.17.0

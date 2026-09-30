@@ -1,0 +1,65 @@
+name: Update Contribution Heatmap
+
+on:
+  schedule:
+    # Her gun 03:17 UTC'de calisir.
+    # Not: GitHub Actions cron'lari HER ZAMAN UTC'dir ve yogunluk nedeniyle
+    # birkac dakika gecikebilir.
+    - cron: "17 3 * * *"
+  workflow_dispatch: {}   # Ayarlar > Actions sekmesinden elle de tetikleyebilirsin
+
+# Repo'ya push edebilmek icin yazma izni sart. (Varsayilan: read-only)
+permissions:
+  contents: write
+
+# Ayni anda iki kopya calismasin
+concurrency:
+  group: heatmap-refresh
+  cancel-in-progress: true
+
+jobs:
+  heatmap:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        # Bu is akisinda SADECE katki cekme + SVG cizme var.
+        # rembg/onnxruntime/opencv gibi agir paketler gereksiz -> kurmuyoruz.
+        # (Boyut: ~2 GB yerine ~15 MB; sure: birkac dakika yerine birkac saniye.)
+        run: |
+          python -m pip install --upgrade pip
+          pip install "requests>=2.31.0" "beautifulsoup4>=4.12.3"
+
+      - name: Fetch public contributions
+        run: python scripts/fetch_contributions.py --user tugberkcem
+
+      - name: Render heatmap SVG
+        run: python scripts/render_heatmap_svg.py
+
+      - name: Commit and push if changed
+        run: |
+          set -euo pipefail
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add contrib-heatmap.svg assets/data/contributions.json
+
+          if git diff --staged --quiet; then
+            echo "Degisiklik yok, push edilmedi."
+            exit 0
+          fi
+
+          STAMP="$(date -u +'%Y-%m-%d')"
+          git commit -m "chore: refresh contribution heatmap (${STAMP})"
+          git push

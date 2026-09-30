@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="438" height="201" viewBox="0 0 438 201" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.0" fill="#00ff9c">
+<rect x="0" y="0" width="438" height="201" fill="#0d1117" rx="6"/>
+<rect id="anim_pause_all" width="1" height="1" opacity="0"/>
+<rect id="anim_resume_all" width="1" height="1" opacity="0"/>
+<rect id="anim_typer" width="1" height="1" opacity="0"/>
+<clipPath id="tsclip0">
+<rect x="0" y="0.00" width="0" height="10.60">
+<animate attributeName="width" from="0" to="414.00" begin="0.00s" dur="0.17s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+</rect></clipPath>
+<text x="6.00" y="10.60" clip-path="url(#tsclip0)" xml:space="preserve">                                                 .-=--+++======--=-:</text>
+<clipPath id="tsclip1">
+<rect x="0" y="10.60" width="0" height="10.60">
+<animate attributeName="width" from="0" to="426.00" begin="0.17s" dur="0.17s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+</rect></clipPath>
+<text x="6.00" y="21.20" clip-path="url(#tsclip1)" xml:space="preserve">                                             :=*%%%%%%%%%############=</text>
+<clipPath id="tsclip2">
+<rect x="0" y="21.20" width="0" height="10.60">
+<animate attributeName="width" from="0" to="426.00" begin="0.33s" dur="0.17s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+</rect></clipPath>
+<text x="6.00" y="31.80" clip-path="url(#tsclip2)" xml:space="preserve">                                        .-+#%@@%%%%%###%%########%###+</text>
+<clipPath id="tsclip3">
+<rect x="0" y="31.80" width="0" height="10.60">
+<animate attributeName="width" from="0" to="426.00" begin="0.50s" dur="0.17s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+</rect></clipPath>
+<text x="6.00" y="42.40" clip-path="url(#tsclip3)" xml:space="preserve">                                   :-=*%%%%%%%%%%%%%#####%######%####*</text>
+<clipPath id="tsclip4">
+<rect x="0" y="42.40" width="0" height="10.60">
+<animate attributeName="width" from="0" to="432.00" begin="0.67s" dur="0.17s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+</rect></clipPath>
+<text x="6.00" y="53.00" clip-path="url(#tsclip4)" xml:space="preserve">                                :###@@@%%%%%%%@%%%%%##################:</text>
+<clipPath id="tsclip5">
+<rect x="0" y="53.00" width="0" height="10.60">
+<animate attributeName="width" from="0" to="432.00" begin="0.83s" dur="0.17s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+</rect></clipPath>
+<text x="6.00" y="63.60" clip-path="url(#tsclip5)" xml:space="preserve">                                -##*@+@%%%%%%%%%%%%%#######%##########-</text>
+<clipPath id="tsclip6">
+<rect x="0" y="63.60" width="0" height="10.60">
+<animate attributeName="width" from="0" to="432.00" begin="1.00s" dur="0.17s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+</rect></clipPath>
+<text x="6.00" y="74.20" clip-path="url(#tsclip6)" xml:space="preserve">                              .:-+==*.%%%%%%%%%%%%%%%##%########%###%%:</text>
+<clipPath id="tsclip7">
+<rect x="0" y="74.20" width="0" height="10.60">
+<animate attributeName="width" from="0" to="432.00" begin="1.17s" dur="0.17s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+</rect></clipPath>
+<text x="6.00" y="84.80" clip-path="url(#tsclip7)" xml:space="preserve">                          :-==-:::-:  #%%%%%%%%%%%%%%#%%%#####%#######.</text>
+<clipPath id="tsclip8">
+<rect x="0" y="84.80" width="0" height="10.60">
+<animate attributeName="width" from="0" to="432.00" begin="1.33s" dur="0.17s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+</rect></clipPath>
+<text x="6.00" y="95.40" clip-path="url(#tsclip8)" xml:space="preserve">         .-+#@.           -::.....    #%%%%%%%%%%%%%%%%##%%###%#######:</text>
+<clipPath id="tsclip9">
+<rect x="0" y="95.40" width="0" height="10.60">
+<animate attributeName="width" from="0" to="432.00" begin="1.50s" dur="0.17s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+</rect></clipPath>
+<text x="6.00" y="106.00" clip-path="url(#tsclip9)" xml:space="preserve">    .-+#@@@@@@            ........    *@%%%%%%%%%%%%%%%%#%%%%#########-</text>
+<clipPath id="tsclip10">
+<rect x="0" y="106.00" width="0" height="10.60">
+<animate attributeName="width" from="0" to="432.00" begin="1.67s" dur="0.17s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+</rect></clipPath>
+<text x="6.00" y="116.60" clip-path="url(#tsclip10)" xml:space="preserve"> -#@@@@@@@@@@@.           ........    *@%@%%%%%%%%%%%%%%%%%%%#########-</text>
+<clipPath id="tsclip11">
+<rect x="0" y="116.60" width="0" height="10.60">
+<animate attributeName="width" from="0" to="432.00" begin="1.83s" dur="0.17s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+</rect></clipPath>
+<text x="6.00" y="127.20" clip-path="url(#tsclip11)" xml:space="preserve"> +@@@@@@@%%@@@            .....:..    *%%@%%%%%%%%%%%%%%%%%%%#########-</text>
+<clipPath id="tsclip12">
+<rect x="0" y="127.20" width="0" height="10.60">
+<animate attributeName="width" from="0" to="432.00" begin="2.00s" dur="0.17s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+</rect></clipPath>
+<text x="6.00" y="137.80" clip-path="url(#tsclip12)" xml:space="preserve"> =%@%@@%@%@@@@            :....:..    *@%%%%%%%%%%%%%%%%%%############:</text>
+<clipPath id="tsclip13">
+<rect x="0" y="137.80" width="0" height="10.60">
+<animate attributeName="width" from="0" to="426.00" begin="2.17s" dur="0.17s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+</rect></clipPath>
+<text x="6.00" y="148.40" clip-path="url(#tsclip13)" xml:space="preserve"> =@%%@@@@%@@@@            ::::::..    *@%%%%%%%%%%%%%%%%%%###########*</text>
+<clipPath id="tsclip14">
+<rect x="0" y="148.40" width="0" height="10.60">
+<animate attributeName="width" from="0" to="432.00" begin="2.33s" dur="0.17s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+</rect></clipPath>
+<text x="6.00" y="159.00" clip-path="url(#tsclip14)" xml:space="preserve"> =@@%%%%%@@@@@            =+...:..    +%%%%%%%%%%%%%%%%%%%%###########:</text>
+<clipPath id="tsclip15">
+<rect x="0" y="159.00" width="0" height="10.60">
+<animate attributeName="width" from="0" to="432.00" begin="2.50s" dur="0.17s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+</rect></clipPath>
+<text x="6.00" y="169.60" clip-path="url(#tsclip15)" xml:space="preserve"> =@@%@%@%%@%@@            -+. .:..    *%%%%%%%%%#######%%%%%%##%######-</text>
+<clipPath id="tsclip16">
+<rect x="0" y="169.60" width="0" height="10.60">
+<animate attributeName="width" from="0" to="432.00" begin="2.67s" dur="0.17s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+</rect></clipPath>
+<text x="6.00" y="180.20" clip-path="url(#tsclip16)" xml:space="preserve"> =@%%@@@@@@@@@            :=...:..    *@%%%%%%%%%%########%%%%##%####*.</text>
+<clipPath id="tsclip17">
+<rect x="0" y="180.20" width="0" height="10.60">
+<animate attributeName="width" from="0" to="426.00" begin="2.83s" dur="0.17s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+</rect></clipPath>
+<text x="6.00" y="190.80" clip-path="url(#tsclip17)" xml:space="preserve"> -@@@%@@%@@@@@            :=...:..    +@%%%%%%%%%%%##%%%%#######%####*</text>
+<rect x="6.00" y="190.80" width="6.00" height="10.50" fill="#00ff9c"><animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/></rect>
+</svg>

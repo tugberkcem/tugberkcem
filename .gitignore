@@ -1,0 +1,30 @@
+# Sanal ortam
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+
+# ---------------------------------------------------------------------------
+# NOT: Asagidakileri BILEREK ignore ETMIYORUZ, cunku repoda kalmali:
+#   source-photo.jpg          -> boru hattinin girdisi
+#   avi-ascii.svg             -> README'de gomulu
+#   info-card.svg             -> README'de gomulu
+#   contrib-heatmap.svg       -> bot tarafindan guncellenir
+#   assets/prep/*.png         -> ASCII kaynagi
+# ---------------------------------------------------------------------------
+source-photo.jpg
