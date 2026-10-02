@@ -1,6 +1,6 @@
 {
   "user": "tugberkcem",
-  "fetched_at": "2026-10-01T10:07:16+00:00",
+  "fetched_at": "2026-10-02T09:45:03+00:00",
   "total": 7,
   "days": [
     {
@@ -1075,13 +1075,13 @@
     },
     {
       "date": "2026-04-30",
-      "count": 2,
-      "level": 2
+      "count": 0,
+      "level": 0
     },
     {
       "date": "2026-05-01",
-      "count": 2,
-      "level": 2
+      "count": 0,
+      "level": 0
     },
     {
       "date": "2026-05-02",
@@ -1840,13 +1840,18 @@
     },
     {
       "date": "2026-09-30",
-      "count": 2,
-      "level": 2
+      "count": 4,
+      "level": 4
     },
     {
       "date": "2026-10-01",
-      "count": 2,
-      "level": 2
+      "count": 4,
+      "level": 4
+    },
+    {
+      "date": "2026-10-02",
+      "count": 0,
+      "level": 0
     }
   ]
 }
