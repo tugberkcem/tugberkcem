@@ -17,12 +17,12 @@ C++, Python ve C dillerinde güçlü bir altyapıya sahibim; FastAPI, Flask ve Q
 ## ⚙️ Teknoloji Altyapısı
 
 - **Programlama Dilleri:** C++, Python, C, SQL, Dart, HTML/CSS/JS
-- **Backend:** FastAPI, Flask, REST API tasarımı, MVC Mimarisi
+- **Backend:** FastAPI, Flask, REST API tasarımı
 - **Yapay Zeka & Veri:** LLM uygulamaları, makine öğrenmesi, scikit-learn, pandas, NumPy, SciPy
 - **Masaüstü & Mobil:** Qt Framework, PyQt, Qt Multimedia, Flutter
 - **Gömülü Sistemler:** STM32, Arduino, ARM Cortex-M
 - **Veritabanı & Servisler:** MongoDB, Firebase, Supabase, İlişkisel Veritabanı Tasarımı (ERD)
-- **Sistem & Araçlar:** Git/GitHub, SSH, OpenWrt, VnStat, Iftop, Collectd, LuCI
+- **Sistem & Araçlar:** Git/GitHub, SSH, OpenWrt, vnstat, iftop, collectd, LuCI
 - **Metodoloji:** Agile/Scrum, OOP, MVC Mimarisi
 
 ## 📚 Şu Anda Öğreniyorum
